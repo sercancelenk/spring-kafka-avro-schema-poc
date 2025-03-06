@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: kafka-avro-poc
+  profiles:
+    include: kafka
+
+server:
+  port: 9909
